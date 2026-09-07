@@ -1,0 +1,366 @@
+{
+  "profile": {
+    "name": "Kevin Ding",
+    "location": "Vancouver, British Columbia, Canada",
+    "locationShort": "Vancouver, BC, Canada",
+    "headerSubtitle": "Computer Engineering @ UBC",
+    "role": "SWE Co-op @ OSI Maritime Systems",
+    "phone": "672-515-9182",
+    "social": {
+      "github": "https://github.com/KevinZhiyuanDing",
+      "linkedin": "https://www.linkedin.com/in/kevin-zy-ding",
+      "email": "kevin.zhiyuan.ding@gmail.com"
+    }
+  },
+  "about": {
+    "text": "Hi, I'm Kevin Ding, a Computer Engineering student at the University of British Columbia with interests in machine learning, robotics, and computer systems. I am proficient in Python, C++, C, Java, and PyTorch.\n\nI currently contribute to research on reducing latency in world-action models, and my previous research focused on machine learning-based operating-system prefetching at UBC. I also lead the Telemetry team at UBC Supermileage, where I develop embedded firmware and vehicle telemetry systems, including C++ firmware and custom PCBs.\n\nPreviously, I worked as a Software Engineer at OSI Maritime Systems, building internal tools for engineering workflows and requirements management. I also worked as a Computer Vision Engineer Intern at SNIBE, building a real-time Python/OpenCV actuator monitoring pipeline.\n\nOutside of engineering, I enjoy basketball, skiing, and swimming. I keep a small LEGO collection, and I enjoy playing Minecraft."
+  },
+  "education": [
+    {
+      "school": "The University of British Columbia",
+      "location": "Vancouver, BC",
+      "degree": "Bachelor of Applied Science in Computer Engineering",
+      "graduation": "September 2023 - May 2028 (Expected)",
+      "highlights": [
+        "Academics: 90% Grade percentage | Trek Excellence Scholarship (Top 5%) | Dean's List, All Terms"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "OSI Maritime Systems",
+      "location": "",
+      "title": "Software Engineer Co-op",
+      "period": "January 2026 – August 2026",
+      "links": [
+        {
+          "label": "Company Website",
+          "url": "https://osimaritime.com/"
+        }
+      ],
+      "description": [
+        "Built a full-stack AI assistant enabling engineers to query requirements, traceability, and test cases in Perforce Helix ALM, integrating React/TypeScript, FastAPI, Gemma 4 served with vLLM, and Model Context Protocol (MCP) tools.",
+        "Automated an 8+ hour requirements review workflow by building a Python document comparison pipeline combining exact, fuzzy, and LLM-based matching to detect changes across document revisions.",
+        "Cleared a 1,000+ hour engineering backlog by automating the migration of hundreds of engineering documents into Helix ALM using Python and REST APIs."
+      ]
+    },
+    {
+      "company": "SNIBE",
+      "location": "",
+      "title": "Computer Vision Engineer Intern",
+      "period": "May 2025 – August 2025",
+      "links": [
+        {
+          "label": "Company Website",
+          "url": "https://www.snibe.com/en/"
+        }
+      ],
+      "description": [
+        "Built a real-time Python/OpenCV actuator monitoring pipeline processing video at 30 FPS, tracking colored markers to automatically detect stalls and jitter hours before manual inspection.",
+        "Extracted actuator trajectories using HSV segmentation and contour centroids, then applied cross-correlation and FFT analysis to detect deviations from expected periodic motion."
+      ]
+    }
+  ],
+  "researchExperience": [
+    {
+      "company": "The University of British Columbia",
+      "location": "",
+      "title": "Undergraduate ML Research Assistant",
+      "period": "June 2025 – Present",
+      "links": [
+        {
+          "label": "Research Group Website",
+          "url": "https://systopia.cs.ubc.ca/"
+        }
+      ],
+      "description": [
+        "Developed machine learning-based operating system prefetching models that outperformed Leap on 3 of 4 complex workloads, improving prediction accuracy by 50% on average.",
+        "Implemented LSTM and attention-based models in PyTorch with autoregressive and direct multi-step prediction, benchmarking prediction accuracy and p50/p99 inference latency.",
+        "Built data pipelines processing hundreds of millions of page-fault records across seven workloads for distributed training and evaluation on Compute Canada GPU clusters."
+      ]
+    },
+    {
+      "company": "The University of British Columbia",
+      "location": "",
+      "title": "Undergraduate Robotics AI Research Assistant",
+      "period": "June 2026 – Present",
+      "links": [],
+      "description": [
+        "Researching techniques for reducing inference latency in world-action models to improve real-time policy execution.",
+        "Reproducing and benchmarking robot-learning policies, including ACT, Diffusion Policy, and π0, on RoboTwin to evaluate task success rate and inference latency."
+      ]
+    }
+  ],
+  "designTeamExperience": [
+    {
+      "company": "UBC Supermileage",
+      "location": "",
+      "title": "Vehicle Telemetry Firmware Lead",
+      "period": "September 2024 – Present",
+      "links": [
+        {
+          "label": "Supermileage Website",
+          "url": "https://www.supermileage.ca"
+        },
+        {
+          "label": "Telemetry Firmware",
+          "url": "https://github.com/supermileage/telemetry-firmware"
+        },
+        {
+          "label": "Speeduino CAN Bridge Coprocessor",
+          "url": "https://github.com/supermileage/Speeduino-CAN-Coprocessor"
+        }
+      ],
+      "description": [
+        "Led development of a vehicle telemetry system over LTE to Google Cloud and Grafana; served as Telemetry Race Engineer at the 2026 Shell Eco-marathon, contributing to a top-9 finish in the Urban Vehicle Concept category.",
+        "Developed C++ firmware for a Particle Boron MCU and an STM32 CAN bridge in FreeRTOS to acquire and process telemetry from fuel-cell, ECU, and GPS modules over UART, CAN, and I2C.",
+        "Designed and brought up a custom 4-layer PCB in KiCad, including schematic design, power distribution, grounding, and routing of sensitive IMU signals.",
+        "Reduced BigQuery costs by 50% by redesigning telemetry payloads, partitioning tables, and optimizing SQL queries."
+      ]
+    },
+    {
+      "company": "UBC Supermileage Design Team",
+      "location": "",
+      "title": "Electrical Division Member",
+      "period": "September 2023 – August 2024",
+      "links": [
+        {
+          "label": "Supermileage Website",
+          "url": "https://www.supermileage.ca"
+        }
+      ],
+      "description": [
+        "Implemented embedded C++ drivers and control firmware for a dynamometer system, including PWM-based control of a hysteresis brake and integration with custom electronics for vehicle testing.",
+        "Designed a 2-layer PCB in KiCad for the dynamometer’s control electronics, contributing to schematic design, component placement, and board routing."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Socratic AI",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Gemini API"
+      ],
+      "image": "assets/projects/sai.png",
+      "links": [
+        {
+          "label": "Live Demo",
+          "url": "https://socratic-ai-gamma.vercel.app"
+        }
+      ],
+      "description": [
+        "Built a full-stack TypeScript/Next.js tutoring platform integrating Gemini to guide students with Socratic questions and summarize learning gaps for instructors.",
+        "Implemented authentication and role-based access using PostgreSQL row-level security to isolate school data, with prompt-injection filtering to protect LLM interactions.",
+        "Built the chat backend with Next.js server actions, configurable AI settings, and Redis rate limiting to control request volume and prevent abuse."
+      ]
+    },
+    {
+      "name": "OS/161 Kernel",
+      "technologies": [
+        "C",
+        "UNIX",
+        "Operating Systems"
+      ],
+      "image": "assets/projects/virtual_memory.png",
+      "github": "",
+      "description": [
+        "Extended the OS/161 kernel in C by implementing a first-fit physical memory allocator, multi-level page tables, and TLB fault handling to support virtual memory and address translation.",
+        "Built Unix-style process and file management, including fork(), execv(), and waitpid(), per-process file descriptor tables, and synchronization primitives using locks, semaphores, and condition variables.",
+        "Developed a Unix-style shell with process spawning, I/O redirection, pipelines, and signal handling for process control."
+      ]
+    },
+    {
+      "name": "Study Sphere",
+      "technologies": [
+        "Java",
+        "JavaFX",
+        "Python",
+        "asyncio",
+        "Playwright"
+      ],
+      "image": "assets/projects/study_sphere.png",
+      "links": [
+        {
+          "label": "Study-Sphere-App",
+          "url": "https://github.com/KevinZhiyuanDing/Study-Sphere-App"
+        }
+      ],
+      "description": [
+        "Built a JavaFX desktop application that aggregates real-time study-room availability across multiple UBC campus booking web portals, allowing students to filter and find open spaces from a single app interface.",
+        "Engineered an asynchronous Python backend using asyncio and Playwright to scrape multiple booking systems concurrently, reducing availability refresh time to around 5 seconds across 100+ rooms."
+      ]
+    },
+    {
+      "name": "LLM Fine-Tuning for Spam Detection",
+      "technologies": [
+        "PyTorch",
+        "Hugging Face",
+        "Transformers"
+      ],
+      "image": "assets/projects/transformer.webp",
+      "links": [
+        {
+          "label": "CPEN455-Project-2025W1",
+          "url": "https://github.com/KevinZhiyuanDing/CPEN455-Project-2025W1"
+        }
+      ],
+      "description": [
+        "Fine-tuned a decoder-only transformer for spam detection, comparing zero-shot, prompting, and supervised fine-tuning approaches using token-level log-probabilities for classification.",
+        "Achieved 95% test accuracy and placed 3rd of 107 teams in a Kaggle competition using class-weighted loss and posterior calibration to address class imbalance."
+      ]
+    },
+    {
+      "name": "CNN from Scratch",
+      "technologies": [
+        "Python",
+        "NumPy",
+        "PyTorch"
+      ],
+      "image": "assets/projects/mnist-3.0.1.png",
+      "links": [
+        {
+          "label": "CNN-from-scratch",
+          "url": "https://github.com/KevinZhiyuanDing/CNN-from-scratch"
+        }
+      ],
+      "description": [
+        "Implemented a convolutional neural network (CNN) from scratch in NumPy with vectorized multi-channel convolution, max pooling, dropout, dense layers, and backpropagation.",
+        "Achieved 98% MNIST test accuracy and verified my implementation against PyTorch using gradient checks and comparing training/validation curves."
+      ]
+    },
+    {
+      "name": "RISC-V Processor",
+      "technologies": [
+        "SystemVerilog",
+        "FPGA",
+        "ModelSim",
+        "Quartus"
+      ],
+      "image": "assets/projects/rics_v_5_stage.png",
+      "links": [
+        {
+          "label": "RISC-V-Processor",
+          "url": "https://github.com/KevinZhiyuanDing/RISC-V-Processor"
+        }
+      ],
+      "description": [
+        "Designed a 16-bit RISC-V CPU in SystemVerilog with a 5-stage pipeline (Fetch, Decode, Execute, Memory, Writeback), implementing a custom ALU, control unit, and hazard detection logic for control flow correctness.",
+        "Verified RTL correctness through ModelSim simulation and synthesized the design onto a DE1-SoC FPGA using Quartus, meeting timing constraints for deployment."
+      ]
+    },
+    {
+      "name": "WikiMediator Server",
+      "technologies": [
+        "Java",
+        "Client-Server Architecture",
+        "Concurrency"
+      ],
+      "image": "assets/projects/wikipedia.png",
+      "links": [
+        {
+          "label": "WikiMediator-Server",
+          "url": "https://github.com/KevinZhiyuanDing/WikiMediator-Server/"
+        }
+      ],
+      "description": [
+        "Built a thread-safe Wikipedia mediator service in Java that handled concurrent client-server requests, supported AES-encrypted communication and token-based authentication, and processed structured queries.",
+        "Designed and implemented a custom cache with LRU eviction and expiration policies, using JWiki, Gson, and ANTLR to improve Wikipedia retrieval, JSON handling, and query parsing performance."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Python",
+        "C++",
+        "C",
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "HTML/CSS",
+        "SQL",
+        "SystemVerilog"
+      ]
+    },
+    {
+      "category": "Web & Backend",
+      "items": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "REST APIs",
+        "JavaFX"
+      ]
+    },
+    {
+      "category": "Machine Learning & AI",
+      "items": [
+        "PyTorch",
+        "Hugging Face Transformers",
+        "scikit-learn",
+        "NumPy",
+        "pandas",
+        "OpenCV",
+        "vLLM",
+        "Model Context Protocol (MCP)",
+        "LLM Fine-tuning"
+      ]
+    },
+    {
+      "category": "Embedded & Hardware",
+      "items": [
+        "FreeRTOS",
+        "STM32",
+        "ARM Cortex-M",
+        "Particle Boron",
+        "CAN",
+        "UART",
+        "I2C",
+        "SPI",
+        "PWM",
+        "JTAG/SWD",
+        "KiCad",
+        "PCB Design",
+        "ModelSim",
+        "Quartus"
+      ]
+    },
+    {
+      "category": "Cloud & Infrastructure",
+      "items": [
+        "Google Cloud Platform",
+        "BigQuery",
+        "Grafana",
+        "Docker",
+        "Linux",
+        "Git",
+        "GDB"
+      ]
+    },
+    {
+      "category": "Testing & Automation",
+      "items": [
+        "pytest",
+        "JUnit",
+        "Vitest",
+        "Playwright"
+      ]
+    }
+  ],
+  "awards": [
+    "J Fred Muir Memorial Scholarship in Engineering (2025)",
+    "Trek Excellence Scholarship (2024)",
+    "WRDS Student Research Conference Invitational Speaker (2024)",
+    "Duke of Edinburgh Silver Award (2023)"
+  ],
+  "contact": {
+    "text": "I'm always happy to make new friends. If you want to chat about fun topics like vehicle firmware, robotics, operating systems, or machine learning, feel free to reach out via {{email}} or connect on {{github}} and {{linkedin}}."
+  }
+}

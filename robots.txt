@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kevinzhiyuanding.github.io/sitemap.xml
